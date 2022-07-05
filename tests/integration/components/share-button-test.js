@@ -13,7 +13,7 @@ class MockRouterService extends Service {
   get currentURL() {
     return '/foo/bar?baz=true#some-section';
   }
-};
+}
 
 module('Integration | Component | share-button', function (hooks) {
   setupRenderingTest(hooks);
